@@ -14,3 +14,7 @@ def home():
 def about():
     """Render the about page using the 'about.html' template."""
     return render_template("about.html")
+
+#if __name__ == '__main__':
+    #"""Start the app in debug mode."""
+    # app.run(debug=True)  # Uncomment for local debugging; comment out for deployment
